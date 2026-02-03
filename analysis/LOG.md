@@ -23,3 +23,5 @@ All timestamps in UTC.
 - Added one-per-figure mode and TeX prewarm option to `plot_properties_vs_trajectory.py`.
 ## 2026-02-03T17:24:59Z
 - Disabled TeX by default for trajectory plotting and switched labels to Unicode subscripts.
+## 2026-02-03T17:26:08Z
+- Generated one-per-figure trajectory property plots (no TeX) in `plots/`.
