@@ -14,8 +14,7 @@ _PARAMS = {
     "font.serif": ["Times", "Computer Modern Roman"],
     "font.size": 10,
     "axes.labelsize": 10,
-    "text.usetex": True,
-    "text.latex.preamble": r"\usepackage{bm} \usepackage{siunitx} \usepackage{chemformula}",
+    "text.usetex": False,
 
     # ---------- Lines & markers ----------
     "lines.linewidth": 2.0,
@@ -76,23 +75,23 @@ _PARAMS = {
 _LABELS = {
     "V": r"V (at. frac.)",
     "index": r"Trajectory index",
-    "Density Avg": r"Density (\si{\gram\per\centi\meter\cubed})",
-    "Tm Avg": r"$T_m$ (\si{\kelvin})",
-    "VEC Avg": r"VEC",
-    "Bulk Modulus Avg": r"Bulk modulus (\si{\giga\pascal})",
-    "Shear Modulus Avg": r"Shear modulus (\si{\giga\pascal})",
-    "Cauchy Pres Avg": r"Cauchy pressure (\si{\giga\pascal})",
-    "Pugh_Ratio_PRIOR": r"Pugh ratio",
-    "Zener Ratio": r"Zener ratio",
-    "Universal Anisotropy": r"Universal anisotropy",
-    "YS 25C PRIOR": r"Yield strength (\si{\mega\pascal})",
-    "YS T C PRIOR": r"Yield strength (\si{\mega\pascal})",
-    "HV 25C PRIOR": r"Vickers hardness",
-    "HV T C PRIOR": r"Vickers hardness",
+    "Density Avg": "Density (g/cc)",
+    "Tm Avg": "Tₘ (K)",
+    "VEC Avg": "VEC",
+    "Bulk Modulus Avg": "Bulk modulus (GPa)",
+    "Shear Modulus Avg": "Shear modulus (GPa)",
+    "Cauchy Pres Avg": "Cauchy pressure (GPa)",
+    "Pugh_Ratio_PRIOR": "Pugh ratio",
+    "Zener Ratio": "Zener ratio",
+    "Universal Anisotropy": "Universal anisotropy",
+    "YS 25C PRIOR": "YS₂₅C (MPa)",
+    "YS T C PRIOR": "YSₜC (MPa)",
+    "HV 25C PRIOR": "HV₂₅C",
+    "HV T C PRIOR": "HVₜC",
 }
 
 
-def apply_affine_style(use_tex: bool = True) -> None:
+def apply_affine_style(use_tex: bool = False) -> None:
     params = dict(_PARAMS)
     if not use_tex:
         params["text.usetex"] = False

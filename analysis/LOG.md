@@ -21,3 +21,5 @@ All timestamps in UTC.
 - Added output format and layout flags to `plot_properties_vs_trajectory.py` to speed LaTeX rendering and allow SVG/PNG.
 ## 2026-02-03T17:20:23Z
 - Added one-per-figure mode and TeX prewarm option to `plot_properties_vs_trajectory.py`.
+## 2026-02-03T17:24:59Z
+- Disabled TeX by default for trajectory plotting and switched labels to Unicode subscripts.
