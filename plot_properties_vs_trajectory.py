@@ -149,8 +149,7 @@ def main() -> None:
     parser.add_argument(
         "--props",
         default=(
-            "Density Avg,Tm Avg,VEC Avg,Bulk Modulus Avg,Shear Modulus Avg,"
-            "Cauchy Pres Avg,Zener Ratio,Universal Anisotropy,YS 25C PRIOR,HV 25C PRIOR"
+            "Density Avg,Tm Avg,VEC Avg,Cauchy Pres Avg,Pugh_Ratio_PRIOR,YS 25C PRIOR"
         ),
     )
     parser.add_argument("--out", default="properties_vs_trajectory.pdf")

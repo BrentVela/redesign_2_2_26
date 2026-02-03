@@ -15,3 +15,5 @@ All timestamps in UTC.
 - Added `plot_properties_vs_trajectory.py` (style matched to `plot_ys_vs_temperature.py`).
 - Generated `properties_vs_trajectory.pdf` from `CalcFiles/STOIC_OUT_0.csv` (with `--no-tex`).
 - Removed Zone.Identifier artifacts for plotting and strength model files.
+## 2026-02-03T17:11:20Z
+- Updated default plotted properties in `plot_properties_vs_trajectory.py` (removed entropy/hardness/Zener/bulk/shear; added Pugh ratio).
