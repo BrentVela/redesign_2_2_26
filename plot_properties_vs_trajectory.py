@@ -111,6 +111,7 @@ def plot_properties(
     props: list[str],
     out_path: str,
     use_tex: bool,
+    use_constrained: bool,
 ) -> None:
     apply_affine_style(use_tex=use_tex)
 
@@ -120,7 +121,12 @@ def plot_properties(
 
     ncols = 2 if n > 1 else 1
     nrows = int(math.ceil(n / ncols))
-    fig, axes = plt.subplots(nrows=nrows, ncols=ncols, figsize=(6.8, 2.6 * nrows))
+    fig, axes = plt.subplots(
+        nrows=nrows,
+        ncols=ncols,
+        figsize=(6.8, 2.6 * nrows),
+        constrained_layout=use_constrained,
+    )
 
     if isinstance(axes, np.ndarray):
         axes = axes.flatten()
@@ -138,6 +144,9 @@ def plot_properties(
     for ax in axes[len(props):]:
         ax.axis("off")
 
+    if not use_constrained:
+        fig.tight_layout()
+
     plt.savefig(out_path, bbox_inches="tight")
     plt.close(fig)
 
@@ -154,6 +163,8 @@ def main() -> None:
     )
     parser.add_argument("--out", default="properties_vs_trajectory.pdf")
     parser.add_argument("--no-tex", action="store_true", help="Disable LaTeX rendering.")
+    parser.add_argument("--format", choices=["pdf", "png", "svg"], help="Override output format.")
+    parser.add_argument("--no-constrained", action="store_true", help="Disable constrained_layout for speed.")
     args = parser.parse_args()
 
     df = pd.read_csv(args.csv)
@@ -163,7 +174,18 @@ def main() -> None:
         raise ValueError(f"x-column '{args.xcol}' not found in CSV.")
 
     props = _parse_props(args.props)
-    plot_properties(df, args.xcol, props, args.out, use_tex=not args.no_tex)
+    out_path = args.out
+    if args.format:
+        stem = out_path.rsplit(".", 1)[0]
+        out_path = f"{stem}.{args.format}"
+    plot_properties(
+        df,
+        args.xcol,
+        props,
+        out_path,
+        use_tex=not args.no_tex,
+        use_constrained=not args.no_constrained,
+    )
 
 
 if __name__ == "__main__":

@@ -17,3 +17,5 @@ All timestamps in UTC.
 - Removed Zone.Identifier artifacts for plotting and strength model files.
 ## 2026-02-03T17:11:20Z
 - Updated default plotted properties in `plot_properties_vs_trajectory.py` (removed entropy/hardness/Zener/bulk/shear; added Pugh ratio).
+## 2026-02-03T17:15:07Z
+- Added output format and layout flags to `plot_properties_vs_trajectory.py` to speed LaTeX rendering and allow SVG/PNG.
