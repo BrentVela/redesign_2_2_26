@@ -31,3 +31,5 @@ All timestamps in UTC.
 ## 2026-02-03T17:36:04Z
 - Updated default plots to use YS at test temperature (1300C) and added reference lines for density/YS.
 - Regenerated `properties_vs_trajectory_1x6.pdf`.
+## 2026-02-03T17:47:45Z
+- Merged EQUIL outputs with stoichiometric properties into `CalcFiles/STOIC_EQUIL_OUT.csv` (11 rows).

@@ -107,7 +107,7 @@ if __name__ == '__main__':
     results_df = pd.read_csv('trajectory.csv')
     elements = ['Cr','Mo','Nb','Ta','Ti','V','W']
     elements = sorted(elements)
-    temps_c = [500, 600, 1300, 1400]
+    temps_c = [500, 600, 1300, 2000]
     ##########################################################################
 
     # Reorganize dataframe to have ordered sequence of element groups 
