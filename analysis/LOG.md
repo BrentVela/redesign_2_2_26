@@ -37,3 +37,6 @@ All timestamps in UTC.
 - Added in-repo rerun script for missing Thermo-Calc equilibria: `rerun_equil_missing.py`.
 ## 2026-02-03T18:48:18Z
 - Added TC25B_HOME auto-detection to TC scripts (defaults to /opt/Thermo-Calc/2025b).
+## 2026-02-03T19:07:30Z
+- Stitched missing equilibrium rows and regenerated `CalcFiles/STOIC_EQUIL_OUT.csv`.
+- Plotted 500C BCC fraction sum vs V: `bcc_fraction_vs_v.pdf`.

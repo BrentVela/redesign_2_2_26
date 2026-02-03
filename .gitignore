@@ -23,3 +23,7 @@ Thumbs.db
 
 # Keep merged stoichiometric + equilibrium output
 !CalcFiles/STOIC_EQUIL_OUT.csv
+
+# Keep Thermo-Calc equilibrium outputs
+!CalcFiles/EQUIL_AP_OUT_*.csv
+!CalcFiles/EQUIL_AP_OUT_MISSING.csv
