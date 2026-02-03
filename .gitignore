@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Data / outputs
+CalcFiles/
+*.csv
+*.par
+*.parquet
+*.h5
+*.npy
+*.npz
+
+# Logs
+*-tracker.txt
+
+# OS
+.DS_Store
+Thumbs.db
