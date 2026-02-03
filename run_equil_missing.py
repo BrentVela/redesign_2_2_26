@@ -1,4 +1,5 @@
 import os
+import os
 import numpy as np
 import pandas as pd
 from tc_python import TCPython, LoggingPolicy, ThermodynamicQuantity
@@ -16,6 +17,16 @@ def _ensure_tc_home() -> None:
 
 _ensure_tc_home()
 
+
+def _tc_logging_kwargs() -> dict:
+    policy = os.environ.get("TC_LOGGING_POLICY", "none").lower()
+    log_file = os.environ.get("TC_LOG_FILE", "tc_python.log")
+    if policy == "file":
+        return {"logging_policy": LoggingPolicy.FILE, "log_file": log_file, "debug_logging": True}
+    if policy == "screen":
+        return {"logging_policy": LoggingPolicy.SCREEN, "debug_logging": True}
+    return {}
+
 MISSING_IDS = ["NbTaV65_path_04", "NbTaV65_path_09"]
 TEMPS_C = [500, 600, 1300, 2000]
 ELEMENTS = sorted(["Cr","Mo","Nb","Ta","Ti","V","W"])
@@ -26,7 +37,7 @@ if subset.empty:
     raise SystemExit("No matching alloys found")
 
 rows = []
-with TCPython(logging_policy=LoggingPolicy.NONE) as session:
+with TCPython(**_tc_logging_kwargs()) as session:
     session.disable_caching()
     for _, row in subset.iterrows():
         comp = np.array([row[e] for e in ELEMENTS])
