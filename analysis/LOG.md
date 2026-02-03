@@ -25,3 +25,6 @@ All timestamps in UTC.
 - Disabled TeX by default for trajectory plotting and switched labels to Unicode subscripts.
 ## 2026-02-03T17:26:08Z
 - Generated one-per-figure trajectory property plots (no TeX) in `plots/`.
+## 2026-02-03T17:29:18Z
+- Updated YS labels to use Unicode subscripts with degree symbol.
+- Generated 1x6 stacked plot: `properties_vs_trajectory_1x6.pdf`.

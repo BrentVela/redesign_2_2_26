@@ -84,8 +84,8 @@ _LABELS = {
     "Pugh_Ratio_PRIOR": "Pugh ratio",
     "Zener Ratio": "Zener ratio",
     "Universal Anisotropy": "Universal anisotropy",
-    "YS 25C PRIOR": "YS₂₅C (MPa)",
-    "YS T C PRIOR": "YSₜC (MPa)",
+    "YS 25C PRIOR": "YS₂₅°C (MPa)",
+    "YS T C PRIOR": "YSₜ°C (MPa)",
     "HV 25C PRIOR": "HV₂₅C",
     "HV T C PRIOR": "HVₜC",
 }
@@ -113,6 +113,7 @@ def plot_properties(
     out_path: str,
     use_tex: bool,
     use_constrained: bool,
+    single_column: bool,
 ) -> None:
     apply_affine_style(use_tex=use_tex)
 
@@ -120,12 +121,12 @@ def plot_properties(
     if n == 0:
         raise ValueError("No properties specified for plotting.")
 
-    ncols = 2 if n > 1 else 1
+    ncols = 1 if single_column else (2 if n > 1 else 1)
     nrows = int(math.ceil(n / ncols))
     fig, axes = plt.subplots(
         nrows=nrows,
         ncols=ncols,
-        figsize=(6.8, 2.6 * nrows),
+        figsize=(6.2 if ncols == 1 else 6.8, 2.6 * nrows),
         constrained_layout=use_constrained,
     )
 
@@ -181,6 +182,7 @@ def main() -> None:
     parser.add_argument("--no-constrained", action="store_true", help="Disable constrained_layout for speed.")
     parser.add_argument("--one-per-figure", action="store_true", help="Write one property per figure.")
     parser.add_argument("--out-dir", default=".", help="Output directory when using one-per-figure.")
+    parser.add_argument("--single-column", action="store_true", help="Use one column layout for multi-plot output.")
     parser.add_argument("--prewarm-tex", action="store_true", help="Prewarm LaTeX cache before plotting.")
     args = parser.parse_args()
 
@@ -215,6 +217,7 @@ def main() -> None:
                 prop_out,
                 use_tex=use_tex,
                 use_constrained=use_constrained,
+                single_column=True,
             )
     else:
         plot_properties(
@@ -224,6 +227,7 @@ def main() -> None:
             out_path,
             use_tex=use_tex,
             use_constrained=use_constrained,
+            single_column=args.single_column,
         )
 
 
