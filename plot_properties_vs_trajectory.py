@@ -1,5 +1,7 @@
 import argparse
 import math
+import os
+import tempfile
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -151,6 +153,19 @@ def plot_properties(
     plt.close(fig)
 
 
+def prewarm_tex_cache(use_constrained: bool) -> None:
+    apply_affine_style(use_tex=True)
+    fig, ax = plt.subplots(figsize=(2.0, 1.5), constrained_layout=use_constrained)
+    ax.plot([0, 1], [0, 1])
+    ax.set_xlabel(r"Temperature (\si{\celsius})")
+    ax.set_ylabel(r"Yield strength (\si{\mega\pascal})")
+    if not use_constrained:
+        fig.tight_layout()
+    with tempfile.NamedTemporaryFile(suffix=".pdf", delete=True) as tmp:
+        fig.savefig(tmp.name, bbox_inches="tight")
+    plt.close(fig)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Plot properties vs trajectory using affine projection styling.")
     parser.add_argument("--csv", default="CalcFiles/STOIC_OUT_0.csv")
@@ -165,6 +180,9 @@ def main() -> None:
     parser.add_argument("--no-tex", action="store_true", help="Disable LaTeX rendering.")
     parser.add_argument("--format", choices=["pdf", "png", "svg"], help="Override output format.")
     parser.add_argument("--no-constrained", action="store_true", help="Disable constrained_layout for speed.")
+    parser.add_argument("--one-per-figure", action="store_true", help="Write one property per figure.")
+    parser.add_argument("--out-dir", default=".", help="Output directory when using one-per-figure.")
+    parser.add_argument("--prewarm-tex", action="store_true", help="Prewarm LaTeX cache before plotting.")
     args = parser.parse_args()
 
     df = pd.read_csv(args.csv)
@@ -174,18 +192,40 @@ def main() -> None:
         raise ValueError(f"x-column '{args.xcol}' not found in CSV.")
 
     props = _parse_props(args.props)
+    use_tex = not args.no_tex
+    use_constrained = not args.no_constrained
+
+    if args.prewarm_tex and use_tex:
+        prewarm_tex_cache(use_constrained)
+
     out_path = args.out
     if args.format:
         stem = out_path.rsplit(".", 1)[0]
         out_path = f"{stem}.{args.format}"
-    plot_properties(
-        df,
-        args.xcol,
-        props,
-        out_path,
-        use_tex=not args.no_tex,
-        use_constrained=not args.no_constrained,
-    )
+
+    if args.one_per_figure:
+        os.makedirs(args.out_dir, exist_ok=True)
+        for prop in props:
+            prop_slug = prop.replace(" ", "_").replace("/", "_")
+            stem = os.path.join(args.out_dir, f"properties_vs_trajectory_{prop_slug}")
+            prop_out = f"{stem}.{out_path.rsplit('.', 1)[-1]}"
+            plot_properties(
+                df,
+                args.xcol,
+                [prop],
+                prop_out,
+                use_tex=use_tex,
+                use_constrained=use_constrained,
+            )
+    else:
+        plot_properties(
+            df,
+            args.xcol,
+            props,
+            out_path,
+            use_tex=use_tex,
+            use_constrained=use_constrained,
+        )
 
 
 if __name__ == "__main__":

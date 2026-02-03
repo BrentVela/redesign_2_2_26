@@ -19,3 +19,5 @@ All timestamps in UTC.
 - Updated default plotted properties in `plot_properties_vs_trajectory.py` (removed entropy/hardness/Zener/bulk/shear; added Pugh ratio).
 ## 2026-02-03T17:15:07Z
 - Added output format and layout flags to `plot_properties_vs_trajectory.py` to speed LaTeX rendering and allow SVG/PNG.
+## 2026-02-03T17:20:23Z
+- Added one-per-figure mode and TeX prewarm option to `plot_properties_vs_trajectory.py`.
