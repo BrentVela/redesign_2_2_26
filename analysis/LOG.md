@@ -33,3 +33,5 @@ All timestamps in UTC.
 - Regenerated `properties_vs_trajectory_1x6.pdf`.
 ## 2026-02-03T17:47:45Z
 - Merged EQUIL outputs with stoichiometric properties into `CalcFiles/STOIC_EQUIL_OUT.csv` (11 rows).
+## 2026-02-03T18:41:43Z
+- Added in-repo rerun script for missing Thermo-Calc equilibria: `rerun_equil_missing.py`.
