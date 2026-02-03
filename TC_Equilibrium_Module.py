@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import os
 import numpy as np
 import pandas as pd
 from tc_python import *
@@ -10,6 +11,19 @@ import os.path as path
 import time
 import os
 import traceback
+
+
+def _ensure_tc_home() -> None:
+    if os.environ.get("TC25B_HOME"):
+        return
+    default_path = "/opt/Thermo-Calc/2025b"
+    if os.path.isdir(default_path):
+        os.environ["TC25B_HOME"] = default_path
+    else:
+        raise EnvironmentError("Environment variable 'TC25B_HOME' not found and default path is missing.")
+
+
+_ensure_tc_home()
 
 
 #Pre-Processing Data
@@ -27,8 +41,15 @@ def EQUIL(param, temps_c):
                 select_database_and_elements('TCHEA7', active_el).
                 get_system())
 
+        options = SingleEquilibriumOptions().set_required_accuracy(1.0e-2).set_max_no_of_iterations(300).set_smallest_fraction(1.0e-6)
         eq_calculation = system.with_single_equilibrium_calculation(). \
-            set_condition(ThermodynamicQuantity.temperature(), 298)
+            set_condition(ThermodynamicQuantity.temperature(), 298).with_options(options)
+        eq_calculation.disable_global_minimization()
+
+        # Focus on BCC and Laves phases only for faster convergence
+        eq_calculation.set_phase_to_suspended(ALL_PHASES)
+        for phase in ["BCC_B2", "BCC_B2#2", "C14_LAVES", "C15_LAVES", "C36_LAVES"]:
+            eq_calculation.set_phase_to_entered(phase)
 
         for i in indices:
             # Get the composition list and corresponding active_el list

@@ -1,6 +1,20 @@
+import os
 import pandas as pd
 import numpy as np
 from tc_python import TCPython, LoggingPolicy, ThermodynamicQuantity, SingleEquilibriumOptions, ALL_PHASES
+
+
+def _ensure_tc_home() -> None:
+    if os.environ.get("TC25B_HOME"):
+        return
+    default_path = "/opt/Thermo-Calc/2025b"
+    if os.path.isdir(default_path):
+        os.environ["TC25B_HOME"] = default_path
+    else:
+        raise EnvironmentError("Environment variable 'TC25B_HOME' not found and default path is missing.")
+
+
+_ensure_tc_home()
 
 TEMPS_C = [500, 600, 1300, 2000]
 ELEMENTS = sorted(["Cr", "Mo", "Nb", "Ta", "Ti", "V", "W"])

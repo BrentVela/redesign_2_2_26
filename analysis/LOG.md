@@ -35,3 +35,5 @@ All timestamps in UTC.
 - Merged EQUIL outputs with stoichiometric properties into `CalcFiles/STOIC_EQUIL_OUT.csv` (11 rows).
 ## 2026-02-03T18:41:43Z
 - Added in-repo rerun script for missing Thermo-Calc equilibria: `rerun_equil_missing.py`.
+## 2026-02-03T18:48:18Z
+- Added TC25B_HOME auto-detection to TC scripts (defaults to /opt/Thermo-Calc/2025b).
