@@ -142,6 +142,11 @@ def plot_properties(
         ax.plot(x, df[prop], marker="o")
         ax.set_xlabel(_label_for(xcol))
         ax.set_ylabel(_label_for(prop))
+        if prop == "Density Avg":
+            ax.axhline(9.5, color="gray", linestyle="--", linewidth=1.0, alpha=0.8)
+        if prop == "YS T C PRIOR":
+            ax.axhline(200, color="gray", linestyle="--", linewidth=1.0, alpha=0.8)
+            ax.axhline(400, color="gray", linestyle="--", linewidth=1.0, alpha=0.8)
 
     for ax in axes[len(props):]:
         ax.axis("off")
@@ -173,7 +178,7 @@ def main() -> None:
     parser.add_argument(
         "--props",
         default=(
-            "Density Avg,Tm Avg,VEC Avg,Cauchy Pres Avg,Pugh_Ratio_PRIOR,YS 25C PRIOR"
+            "Density Avg,Tm Avg,VEC Avg,Cauchy Pres Avg,Pugh_Ratio_PRIOR,YS T C PRIOR"
         ),
     )
     parser.add_argument("--out", default="properties_vs_trajectory.pdf")
