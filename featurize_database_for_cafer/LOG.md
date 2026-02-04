@@ -2046,3 +2046,7 @@
 - [2026-02-04 13:35:00] Stitched borg2019 solidus/liquidus from partial chunks + missing-run chunks.
 - [2026-02-04 13:35:00] borg2019_featurized_with_solidus_liquidus.csv missing 67 rows; remaining unique missing 47.
 - [2026-02-04 13:35:00] Missing split: borg2019_missing_supported_still_nan.csv (28) and borg2019_missing_unsupported_still_nan.csv (19).
+- [2026-02-04 13:42:00] Added stitch_lietal_solidus_liquidus.py to stitch chunks and report missing (supported vs unsupported).
+- [2026-02-04 15:20:00] Stitched lietal solidus/liquidus from partial chunks + missing-run chunks.
+- [2026-02-04 15:20:00] lietal_featurized_with_solidus_liquidus.xlsx missing 194 rows; unique missing 144.
+- [2026-02-04 15:20:00] Missing split: lietal_missing_supported_still_nan.csv (84) and lietal_missing_unsupported_still_nan.csv (60).
