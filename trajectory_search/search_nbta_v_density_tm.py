@@ -133,7 +133,7 @@ def main():
     # rank by density error then solidus error
     df = df.sort_values(['density_err','ts_err']).reset_index(drop=True)
 
-    out = Path('trajectory_search/landing/search_results.csv')
+    out = Path('trajectory_search/search_results.csv')
     df.to_csv(out, index=False)
     print(f"Wrote {out}")
 

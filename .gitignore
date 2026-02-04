@@ -30,7 +30,7 @@ Thumbs.db
 !CalcFiles/EQUIL_AP_OUT_MISSING.csv
 
 # Keep trajectory search outputs
-!trajectory_search/landing/search_results.csv
-!trajectory_search/landing/search_results_with_props.csv
-!trajectory_search/landing/search_results_solidus_density.csv
-!trajectory_search/landing/search_results_solidus_density_with_props.csv
+!trajectory_search/search_results.csv
+!trajectory_search/search_results_with_props.csv
+!trajectory_search/search_results_solidus_density.csv
+!trajectory_search/search_results_solidus_density_with_props.csv

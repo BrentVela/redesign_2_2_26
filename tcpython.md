@@ -23,5 +23,5 @@ export PYTHONPATH=/home/vela/projects/ult/redesign_2_2_26
 
 ## Notes
 - In the Codex sandbox, Thermo-Calc startup hung. Running outside the sandbox was required.
-- The script writes `trajectory_search/landing/properties_list.csv`.
+- The script writes `trajectory_search/properties_list.csv`.
 - The script writes `trajectory_search_grid2/properties_list.csv`.

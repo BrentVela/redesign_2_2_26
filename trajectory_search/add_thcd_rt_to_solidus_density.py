@@ -21,7 +21,7 @@ def ensure_tc_home() -> None:
 
 def main() -> None:
     ensure_tc_home()
-    in_path = "trajectory_search/landing/search_results_solidus_density_with_props.csv"
+    in_path = "trajectory_search/search_results_solidus_density_with_props.csv"
     df = pd.read_csv(in_path)
     elements = ["Cr", "Nb", "Ta", "V", "W", "Zr"]
 

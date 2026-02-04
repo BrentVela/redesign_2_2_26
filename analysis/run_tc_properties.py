@@ -176,7 +176,7 @@ def process(input_csv: str, out_csv: str, alloy_prefix: str) -> None:
 
 
 def main() -> None:
-    process('trajectory_search/landing/search_results.csv', 'trajectory_search/landing/properties_list.csv', 'TS')
+    process('trajectory_search/search_results.csv', 'trajectory_search/properties_list.csv', 'TS')
     process('trajectory_search_grid2/search_results.csv', 'trajectory_search_grid2/properties_list.csv', 'TSG2')
 
 
