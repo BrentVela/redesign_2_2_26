@@ -2,7 +2,7 @@
 """
 Compute derived properties (VEC, Pugh ratio, Cauchy pressure, YS@1300C) and
 Thermo-Calc phase fractions + thermal conductivity at 600C and 1300C
-for candidates in trajectory_search/search_results_solidus_density.csv.
+for candidates in trajectory_search/landing/search_results_solidus_density.csv.
 """
 import os
 import sys
@@ -130,8 +130,8 @@ def tc_phases_and_thcd(df: pd.DataFrame, elements: list[str]) -> pd.DataFrame:
 
 def main() -> None:
     ensure_tc_home()
-    in_path = "trajectory_search/search_results_solidus_density.csv"
-    out_path = "trajectory_search/search_results_solidus_density_with_props.csv"
+    in_path = "trajectory_search/landing/search_results_solidus_density.csv"
+    out_path = "trajectory_search/landing/search_results_solidus_density_with_props.csv"
 
     df = pd.read_csv(in_path).reset_index(drop=True)
     df["Alloy_ID"] = [f"TSD_{i:03d}" for i in range(len(df))]

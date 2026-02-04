@@ -110,7 +110,7 @@ def main():
     # Rank by solidus error, then lowest density
     df = df.sort_values(['solidus_err','Density_g_cc_ROM']).reset_index(drop=True)
 
-    out = Path('trajectory_search/search_results_solidus_density.csv')
+    out = Path('trajectory_search/landing/search_results_solidus_density.csv')
     df.to_csv(out, index=False)
     print(f"Wrote {out}")
 
