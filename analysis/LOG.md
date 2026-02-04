@@ -40,3 +40,18 @@ All timestamps in UTC.
 ## 2026-02-03T19:07:30Z
 - Stitched missing equilibrium rows and regenerated `CalcFiles/STOIC_EQUIL_OUT.csv`.
 - Plotted 500C BCC fraction sum vs V: `bcc_fraction_vs_v.pdf`.
+## 2026-02-04
+- Set 3_creep_resistance.py grain size to paper value (1.2 mm); docstring retained.
+- Regenerated parity data/plot for TCHEA7+MOBHEA3, rate-limiting DI: fig8_parity_rate_limit_TCHEA7_MOBHEA3.pdf.
+- Created shifted parity plots using systematic offset (+0.386 log10):
+  - fig8_parity_rate_limit_TCHEA7_MOBHEA3_shifted.pdf
+  - fig8_parity_rate_limit_TCHEA7_MOBHEA3_100h_pct_shifted.pdf
+- Predicted shifted 1200C, 150 MPa, 100 h creep strain along trajectory:
+  - CalcFiles/creep_strain_1200C_150MPa_100h_VG_shifted.csv
+  - creep_strain_1200C_150MPa_100h_vs_v_pct_shifted.pdf
+  - creep_strain_1200C_150MPa_100h_vs_v_pct_shifted_no_max.pdf (max removed)
+- Added composite a-priori creep plot script (min of NH, Coble, PL5): plot_creep_composite_vs_v.py
+  - CalcFiles/creep_composite_1200C_vs_v.csv
+  - creep_composite_1200C_vs_v.pdf
+  - creep_composite_1200C_vs_v_100h_pct.pdf
+- Generated NH-only 100 h % plot: creep_NH_1200C_vs_v_100h_pct.pdf

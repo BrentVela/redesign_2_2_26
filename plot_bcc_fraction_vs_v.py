@@ -45,28 +45,30 @@ def apply_affine_style() -> None:
     mpl.rcParams.update(_PARAMS)
 
 
-def main() -> None:
-    df = pd.read_csv("CalcFiles/STOIC_EQUIL_OUT.csv")
+def _load_bcc_vs_v(path: str, total_col: str) -> pd.DataFrame:
+    df = pd.read_csv(path)
     if df.empty:
-        raise SystemExit("No data found in CalcFiles/STOIC_EQUIL_OUT.csv")
+        raise SystemExit(f"No data found in {path}")
+    if "V" not in df.columns:
+        raise SystemExit(f"Missing column 'V' in {path}")
+    if total_col not in df.columns:
+        raise SystemExit(f"Missing column '{total_col}' in {path}")
+    return df[["V", total_col]]
 
-    bcc_cols = [
-        "EQ 500C BCC_B2 MOL",
-        "EQ 500C BCC_B2#2 MOL",
-    ]
-    for col in bcc_cols:
-        if col not in df.columns:
-            raise SystemExit(f"Missing column: {col}")
 
-    bcc_sum = df[bcc_cols].sum(axis=1, skipna=True)
+def main() -> None:
+    df_600 = _load_bcc_vs_v("CalcFiles/BCC_600C_fractions.csv", "BCC_600C_TOTAL_MOL")
+    df_1300 = _load_bcc_vs_v("CalcFiles/BCC_1300C_fractions.csv", "BCC_1300C_TOTAL_MOL")
 
     apply_affine_style()
-    fig, ax = plt.subplots(figsize=(4.2, 3.2))
-    ax.plot(df["V"], bcc_sum, marker="o")
+    fig, ax = plt.subplots(figsize=(4.4, 3.3))
+    ax.plot(df_600["V"], df_600["BCC_600C_TOTAL_MOL"], marker="o", label="600C")
+    ax.plot(df_1300["V"], df_1300["BCC_1300C_TOTAL_MOL"], marker="s", label="1300C")
     ax.set_xlabel("V (at. frac.)")
-    ax.set_ylabel("BCC fraction (500C)")
+    ax.set_ylabel("BCC fraction")
     ax.set_ylim(0, 1.05)
-    plt.savefig("bcc_fraction_vs_v.pdf", bbox_inches="tight")
+    ax.legend(frameon=False)
+    plt.savefig("bcc_fraction_vs_v_600C_1300C.pdf", bbox_inches="tight")
     plt.close(fig)
 
 

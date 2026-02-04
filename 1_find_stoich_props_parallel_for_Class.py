@@ -70,7 +70,7 @@ def Property(param):
         'Ru': {'Atomic Weight [g/mol]': 101.07, 'Density [g/cm^3]': 12.37, 'Pauling Electronegativity': 2.2, 'Allen Electronegativity': 1.54, 'Melting Temperature [K]': 2607.15, 'Valence Electrons': 8},
         'Fe': {'Atomic Weight [g/mol]': 55.845, 'Density [g/cm^3]': 7.874, 'Pauling Electronegativity': 1.83, 'Allen Electronegativity': 1.8, 'Melting Temperature [K]': 1811, 'Valence Electrons': 8},
         'Ni': {'Atomic Weight [g/mol]': 58.6934, 'Density [g/cm^3]': 8.908, 'Pauling Electronegativity': 1.91, 'Allen Electronegativity': 1.88, 'Melting Temperature [K]': 1728, 'Valence Electrons': 10},
-        'Co': {'Atomic Weight [g/mol]': 58.933194, 'Density [g/cm^3]': 8.9, 'Pauling Electronegativity': 1.88, 'Allen Electronegativity': 1.84, 'Melting Temperature [K]': 1768, 'Valence Electrons': 2},
+        'Co': {'Atomic Weight [g/mol]': 58.933194, 'Density [g/cm^3]': 8.9, 'Pauling Electronegativity': 1.88, 'Allen Electronegativity': 1.84, 'Melting Temperature [K]': 1768, 'Valence Electrons': 9},
         'Mn': {'Atomic Weight [g/mol]': 54.938044, 'Density [g/cm^3]': 7.47, 'Pauling Electronegativity': 1.55, 'Allen Electronegativity': 1.75, 'Melting Temperature [K]': 2334, 'Valence Electrons': 7},
         'Cu': {'Atomic Weight [g/mol]': 63.546, 'Density [g/cm^3]': 8.96, 'Pauling Electronegativity': 1.9, 'Allen Electronegativity': 1.85, 'Melting Temperature [K]': 1358, 'Valence Electrons': 11}
     }

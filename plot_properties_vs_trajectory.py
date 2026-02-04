@@ -88,6 +88,9 @@ _LABELS = {
     "YS T C PRIOR": "YSₜ°C (MPa)",
     "HV 25C PRIOR": "HV₂₅C",
     "HV T C PRIOR": "HVₜC",
+    "BCC fraction (600C/1300C)": "BCC fraction",
+    "Solidification Range (K)": "Solidification range (K)",
+    "Thermal Conductivity 25C (W/mK)": "Thermal conductivity at 25C (W/mK)",
 }
 
 
@@ -104,6 +107,58 @@ def _label_for(col: str) -> str:
 
 def _parse_props(raw: str) -> list[str]:
     return [item.strip() for item in raw.split(",") if item.strip()]
+
+
+def _merge_bcc_totals(df: pd.DataFrame) -> pd.DataFrame:
+    bcc_600 = pd.read_csv("CalcFiles/BCC_600C_fractions.csv")
+    bcc_1300 = pd.read_csv("CalcFiles/BCC_1300C_fractions.csv")
+    if "V" not in bcc_600.columns or "V" not in bcc_1300.columns:
+        raise ValueError("BCC fraction files must contain V column.")
+    bcc = (
+        bcc_600[["V", "BCC_600C_TOTAL_MOL"]]
+        .merge(bcc_1300[["V", "BCC_1300C_TOTAL_MOL"]], on="V", how="inner")
+        .drop_duplicates(subset=["V"])
+    )
+    return df.merge(bcc, on="V", how="left")
+
+
+def _merge_solidification_range(df: pd.DataFrame) -> pd.DataFrame:
+    prop = pd.read_csv("CalcFiles/PROP_OUT_0.csv")
+    required = {"PROP LT (K)", "PROP ST (K)", "Cr", "Mo", "Nb", "Ta", "Ti", "V", "W"}
+    missing = required.difference(prop.columns)
+    if missing:
+        raise ValueError(f"Missing columns in PROP_OUT_0.csv: {sorted(missing)}")
+    key_cols = ["Cr", "Mo", "Nb", "Ta", "Ti", "V", "W"]
+    prop = prop[key_cols + ["PROP LT (K)", "PROP ST (K)"]].drop_duplicates(subset=key_cols)
+    # PROP_OUT is in mole percent; convert back to fraction to match STOIC_OUT_0.csv
+    prop[key_cols] = prop[key_cols] / 100.0
+    prop["Solidification Range (K)"] = prop["PROP LT (K)"] - prop["PROP ST (K)"]
+    # Use rounded keys to avoid float merge misses
+    df_round = df.copy()
+    prop_round = prop[key_cols + ["Solidification Range (K)"]].copy()
+    for col in key_cols:
+        df_round[col] = df_round[col].round(6)
+        prop_round[col] = prop_round[col].round(6)
+    return df_round.merge(prop_round, on=key_cols, how="left")
+
+
+def _merge_thermal_conductivity_25c(df: pd.DataFrame) -> pd.DataFrame:
+    thcd = pd.read_csv("CalcFiles/PROP_25C_THCD.csv")
+    required = {"PROP 25C THCD (W/mK)", "Cr", "Mo", "Nb", "Ta", "Ti", "V", "W"}
+    missing = required.difference(thcd.columns)
+    if missing:
+        raise ValueError(f"Missing columns in PROP_25C_THCD.csv: {sorted(missing)}")
+    key_cols = ["Cr", "Mo", "Nb", "Ta", "Ti", "V", "W"]
+    thcd = thcd[key_cols + ["PROP 25C THCD (W/mK)"]].drop_duplicates(subset=key_cols)
+    df_round = df.copy()
+    thcd_round = thcd.copy()
+    for col in key_cols:
+        df_round[col] = df_round[col].round(6)
+        thcd_round[col] = thcd_round[col].round(6)
+    df_round["Thermal Conductivity 25C (W/mK)"] = pd.NA
+    merged = df_round.merge(thcd_round, on=key_cols, how="left")
+    merged["Thermal Conductivity 25C (W/mK)"] = merged["PROP 25C THCD (W/mK)"]
+    return merged.drop(columns=["PROP 25C THCD (W/mK)"])
 
 
 def plot_properties(
@@ -137,6 +192,17 @@ def plot_properties(
 
     x = df[xcol]
     for ax, prop in zip(axes, props):
+        if prop == "BCC fraction (600C/1300C)":
+            if "BCC_600C_TOTAL_MOL" not in df.columns or "BCC_1300C_TOTAL_MOL" not in df.columns:
+                raise ValueError("Missing BCC total columns for 600C/1300C plot.")
+            ax.plot(x, df["BCC_600C_TOTAL_MOL"], marker="o", label="600C")
+            ax.plot(x, df["BCC_1300C_TOTAL_MOL"], marker="s", label="1300C")
+            ax.set_xlabel(_label_for(xcol))
+            ax.set_ylabel(_label_for(prop))
+            ax.set_ylim(0, 1.05)
+            ax.legend(frameon=False)
+            continue
+
         if prop not in df.columns:
             raise ValueError(f"Property '{prop}' not found in CSV.")
         ax.plot(x, df[prop], marker="o")
@@ -178,7 +244,8 @@ def main() -> None:
     parser.add_argument(
         "--props",
         default=(
-            "Density Avg,Tm Avg,VEC Avg,Cauchy Pres Avg,Pugh_Ratio_PRIOR,YS T C PRIOR"
+            "Density Avg,Tm Avg,VEC Avg,Cauchy Pres Avg,Pugh_Ratio_PRIOR,YS T C PRIOR,"
+            "BCC fraction (600C/1300C),Solidification Range (K),Thermal Conductivity 25C (W/mK)"
         ),
     )
     parser.add_argument("--out", default="properties_vs_trajectory.pdf")
@@ -198,6 +265,12 @@ def main() -> None:
         raise ValueError(f"x-column '{args.xcol}' not found in CSV.")
 
     props = _parse_props(args.props)
+    if "BCC fraction (600C/1300C)" in props:
+        df = _merge_bcc_totals(df)
+    if "Solidification Range (K)" in props:
+        df = _merge_solidification_range(df)
+    if "Thermal Conductivity 25C (W/mK)" in props:
+        df = _merge_thermal_conductivity_25c(df)
     use_tex = not args.no_tex
     use_constrained = not args.no_constrained
 
