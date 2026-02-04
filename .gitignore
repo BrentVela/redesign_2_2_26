@@ -16,6 +16,7 @@ CalcFiles/
 
 # Logs
 *-tracker.txt
+analysis/artifacts/
 
 # OS
 .DS_Store
@@ -31,3 +32,5 @@ Thumbs.db
 # Keep trajectory search outputs
 !trajectory_search/search_results.csv
 !trajectory_search/search_results_with_props.csv
+!trajectory_search/search_results_solidus_density.csv
+!trajectory_search/search_results_solidus_density_with_props.csv

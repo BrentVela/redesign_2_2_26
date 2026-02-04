@@ -58,3 +58,8 @@ All timestamps in UTC.
 ## 2026-02-04T16:12:19Z
 - Updated trajectory search to compute solidus and re-ranked candidates.
 - Added YS_1300C_MPa to trajectory search results and regenerated search_results_with_props.csv.
+## 2026-02-04T18:32:00Z
+- Added solidus-targeted (2750C) V-sweep search with bisection on Ta: trajectory_search/search_nbta_v_solidus_density.py.
+- Generated trajectory_search/search_results_solidus_density.csv and computed properties + phase fractions + THCD:
+  trajectory_search/search_results_solidus_density_with_props.csv.
+- Added compute helper: trajectory_search/compute_props_and_phases_solidus_density.py.
