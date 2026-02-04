@@ -1,0 +1,2039 @@
+# Featurization Log (Cafer)
+
+## 2026-02-04
+- Inventory:
+  - borg2019.csv
+  - codhem.csv
+  - lietal.xlsx
+- [2026-02-04 12:05:00] Copied TC and property scripts into this directory and added featurization helpers.
+- [2026-02-04 12:05:00] Added featurize_cafer.py to process all three spreadsheets end-to-end.
+- [2026-02-04 11:45:41] Starting featurization run
+- [2026-02-04 11:45:42] Featurizing borg2019.csv: 931 rows, 28 element columns
+- [2026-02-04 11:46:35] Starting featurization run
+- [2026-02-04 11:46:35] Featurizing borg2019.csv: 931 rows, 28 element columns
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Sc']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Y']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Sc', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Ga']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Al', 'C', 'Co', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Nb', 'Ni']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Al', 'Cu', 'Fe', 'Mg', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Ni', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Al', 'Cr', 'Cu', 'Mg', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Mn', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Si', 'Zn', 'Zr']: 'Mg'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si', 'Y']: 'Ca'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['B', 'Co', 'Cr', 'Fe', 'Mn']: 'B'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['B', 'Co', 'Cr', 'Fe', 'Mn']: 'B'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['B', 'Co', 'Cr', 'Fe', 'Mn']: 'B'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Hf', 'Sc', 'Ti', 'Zr']: 'Sc'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Hf', 'Ti', 'Y', 'Zr']: 'Y'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Hf', 'Sc', 'Ti', 'Y', 'Zr']: 'Sc'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ga', 'Ni']: 'Ga'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni', 'W']: 'C'
+- [2026-02-04 11:46:36] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni', 'W']: 'C'
+- [2026-02-04 11:48:28] Starting featurization run
+- [2026-02-04 11:48:29] Featurizing borg2019.csv: 931 rows, 28 element columns
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Sc']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Y']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Sc', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Ga']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Al', 'C', 'Co', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Nb', 'Ni']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Al', 'Cu', 'Fe', 'Mg', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Ni', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Al', 'Cr', 'Cu', 'Mg', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Mn', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Si', 'Zn', 'Zr']: 'Mg'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si', 'Y']: 'Ca'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['B', 'Co', 'Cr', 'Fe', 'Mn']: 'B'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['B', 'Co', 'Cr', 'Fe', 'Mn']: 'B'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['B', 'Co', 'Cr', 'Fe', 'Mn']: 'B'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Hf', 'Sc', 'Ti', 'Zr']: 'Sc'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Hf', 'Ti', 'Y', 'Zr']: 'Y'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Hf', 'Sc', 'Ti', 'Y', 'Zr']: 'Sc'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ga', 'Ni']: 'Ga'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni', 'W']: 'C'
+- [2026-02-04 11:48:30] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni', 'W']: 'C'
+- [2026-02-04 11:49:26] Starting featurization run
+- [2026-02-04 11:49:27] Featurizing borg2019.csv: 931 rows, 28 element columns
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Sc']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Y']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Sc', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Ga']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:49:27] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:49:27] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:49:27] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:49:27] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:49:27] YS_1300C failed for elements ['Al', 'C', 'Co', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:49:27] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:49:27] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:49:27] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:49:27] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:49:27] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:49:27] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:49:27] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:49:27] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:49:27] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:49:27] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:49:27] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:49:27] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:49:27] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Nb', 'Ni']: 'C'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Al', 'Cu', 'Fe', 'Mg', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Ni', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Al', 'Cr', 'Cu', 'Mg', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Mn', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Si', 'Zn', 'Zr']: 'Mg'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si', 'Y']: 'Ca'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['B', 'Co', 'Cr', 'Fe', 'Mn']: 'B'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['B', 'Co', 'Cr', 'Fe', 'Mn']: 'B'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['B', 'Co', 'Cr', 'Fe', 'Mn']: 'B'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Hf', 'Sc', 'Ti', 'Zr']: 'Sc'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Hf', 'Ti', 'Y', 'Zr']: 'Y'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Hf', 'Sc', 'Ti', 'Y', 'Zr']: 'Sc'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ga', 'Ni']: 'Ga'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni', 'W']: 'C'
+- [2026-02-04 11:49:28] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni', 'W']: 'C'
+- [2026-02-04 11:55:09] Starting featurization run (datasets=['borg2019'], do_tc=True)
+- [2026-02-04 11:55:10] Featurizing borg2019.csv: 931 rows, 28 element columns
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Sc']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Y']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Sc', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Ga']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Al', 'C', 'Co', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Nb', 'Ni']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Al', 'Cu', 'Fe', 'Mg', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Ni', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Al', 'Cr', 'Cu', 'Mg', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Mn', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Si', 'Zn', 'Zr']: 'Mg'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si', 'Y']: 'Ca'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['B', 'Co', 'Cr', 'Fe', 'Mn']: 'B'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['B', 'Co', 'Cr', 'Fe', 'Mn']: 'B'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['B', 'Co', 'Cr', 'Fe', 'Mn']: 'B'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Hf', 'Sc', 'Ti', 'Zr']: 'Sc'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Hf', 'Ti', 'Y', 'Zr']: 'Y'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Hf', 'Sc', 'Ti', 'Y', 'Zr']: 'Sc'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ga', 'Ni']: 'Ga'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni', 'W']: 'C'
+- [2026-02-04 11:55:11] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni', 'W']: 'C'
+- [2026-02-04 11:59:18] Starting featurization run (datasets=['borg2019', 'codhem', 'lietal'], do_tc=False)
+- [2026-02-04 11:59:18] Featurizing borg2019.csv: 931 rows, 28 element columns
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Sc']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Y']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Sc', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Ga']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Al', 'C', 'Co', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Nb', 'Ni']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Al', 'Cu', 'Fe', 'Mg', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Ni', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Al', 'Cr', 'Cu', 'Mg', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Mn', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Si', 'Zn', 'Zr']: 'Mg'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si', 'Y']: 'Ca'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['B', 'Co', 'Cr', 'Fe', 'Mn']: 'B'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['B', 'Co', 'Cr', 'Fe', 'Mn']: 'B'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['B', 'Co', 'Cr', 'Fe', 'Mn']: 'B'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Hf', 'Sc', 'Ti', 'Zr']: 'Sc'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Hf', 'Ti', 'Y', 'Zr']: 'Y'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Hf', 'Sc', 'Ti', 'Y', 'Zr']: 'Sc'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ga', 'Ni']: 'Ga'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni', 'W']: 'C'
+- [2026-02-04 11:59:19] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni', 'W']: 'C'
+- [2026-02-04 11:59:19] Wrote /home/vela/projects/ult/redesign_2_2_26/featurize_database_for_cafer/borg2019_featurized.csv
+- [2026-02-04 11:59:21] Featurizing codhem.csv: 2750 rows, 49 element columns
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Li', 'Mg', 'Sn', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Li', 'Mg', 'Sn', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Li', 'Mg', 'Sn', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Li', 'Mg', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Q']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'M', 'O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'M', 'O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'M', 'O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'M', 'O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'M', 'O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'M', 'O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'M', 'O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'M', 'O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'M', 'O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'M', 'O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'M', 'O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'M', 'O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'M', 'O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'M', 'O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'M', 'O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'M', 'O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'M', 'O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'I']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['I', 'Si', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['I', 'Si', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['I', 'Si', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['I', 'Si', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['I', 'T']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Sr', 'Yb', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ca', 'Mg', 'Sr', 'Yb', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ca', 'Mg', 'Sr', 'Yb', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be', 'Vi']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ca', 'Mg', 'Sr', 'Yb', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ca', 'Mg', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Sr', 'Yb', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ca', 'Mg', 'Sr', 'Yb', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ca', 'Mg', 'Sr', 'Yb', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['B', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['B', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['B', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['B', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Gd']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Gd']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Gd']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Gd']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Mg']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Mg']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Mg']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['O']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Gd']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Gd']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Gd']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ga']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ga']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ga']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ga']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ir', 'Pd', 'Pt', 'Rh']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ir', 'Pd', 'Pt', 'Rh']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ir', 'Pd', 'Pt', 'Rh']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ir', 'Pd', 'Pt', 'Rh']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ir', 'Pd', 'Pt', 'Rh']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ir', 'Pd', 'Pt', 'Rh']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ir', 'Pd', 'Pt', 'Rh']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ir', 'Pd', 'Pt', 'Rh']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ir', 'Pd', 'Pt', 'Rh']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ir', 'Pd', 'Pt', 'Rh']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ag', 'Au', 'Pd', 'Pt']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ag', 'Au', 'Pd']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Au', 'Pd']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Au']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ag', 'Au']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Ir', 'Rh']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['B', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['B', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['B', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['N']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Pb', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Pb', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Y']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Y']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Y']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Y']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['S']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['N']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['N']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['N']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['N']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['N']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['N']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['N']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['N']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['N']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['N']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'D', 'P']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['A', 'D', 'P']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Be']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['E', 'M']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:23] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Co', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Co', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Co', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Li', 'Mg', 'Sn', 'Zn']: 'Li'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Li', 'Mg', 'Sn', 'Zn']: 'Li'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Li', 'Mg', 'Sn', 'Zn']: 'Li'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Cu', 'Li', 'Mg', 'Zn']: 'Li'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Hf', 'Mo', 'Nb', 'Ti', 'Zr']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Hf', 'Mo', 'Nb', 'Ti', 'Zr']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cu', 'Mn', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cu', 'Mn', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cu', 'Mn', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cu', 'Mn', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Nb', 'Si', 'Ti', 'V', 'Zr']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Mo', 'Nb', 'Ti', 'V']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'Mo', 'Ta', 'Ti', 'V']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'Hf', 'I', 'Nb', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Hf', 'Nb', 'Q', 'Ta', 'Ti', 'Zr']: 'Q'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'Hf', 'I', 'Nb', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'Cr', 'I', 'Nb', 'Ti', 'V']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'Cr', 'I', 'Nb', 'Ti', 'V']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'Hf', 'I', 'Nb', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Mo', 'Nb', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Mo', 'Nb', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'Ta', 'Ti', 'V', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Mo', 'T', 'Ta', 'V']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Mo', 'Nb', 'Ti', 'V']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Cr', 'I', 'Nb', 'T', 'V']: 'I'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'M', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'M', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'M', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'M', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'M', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'M', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'M', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'M', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'M', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'M', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'M', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'M', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'M', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'M', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'M', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'M', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'M', 'Nb', 'O', 'Ti']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'Ta', 'Ti', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'Ta', 'Ti', 'V']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'T', 'V']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'T', 'V']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'Ti', 'V']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'T', 'V']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'Ti', 'V']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'T', 'V']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'T', 'V']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'Ti', 'V']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'T', 'V']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'Ti', 'V']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'Ti', 'V']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'T', 'V', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'Ti', 'V', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'Ti', 'V', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'T', 'V', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'T', 'V', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'T', 'V', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'T', 'V', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'T', 'V', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'T', 'V', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'Ti', 'V', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'Ti', 'V', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'Ti', 'V', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'Ti', 'V', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'Ti', 'V', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['A', 'I', 'Nb', 'Ti', 'V', 'Zr']: 'A'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Hf', 'Mo', 'Nb', 'Ti', 'Zr']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Hf', 'Mo', 'Nb', 'Ti', 'Zr']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'I', 'Mo', 'Nb', 'Si', 'T', 'V']: 'I'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'I', 'Nb', 'T', 'V']: 'I'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Nb', 'Si', 'Ti', 'V', 'Zr']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Nb', 'Si', 'Ti', 'V', 'Zr']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'I', 'Nb', 'Si', 'T', 'V', 'Zr']: 'I'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'I', 'Nb', 'Si', 'T', 'V', 'Zr']: 'I'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Nb', 'Si', 'Ti', 'V', 'Zr']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'I', 'Nb', 'Si', 'T', 'V', 'Zr']: 'I'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Nb', 'Si', 'Ti', 'V', 'Zr']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['I', 'Mo', 'Nb', 'T', 'V', 'Zr']: 'I'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['I', 'Mo', 'Nb', 'T', 'V', 'Zr']: 'I'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['I', 'Mo', 'Nb', 'T', 'V', 'Zr']: 'I'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['I', 'Mo', 'Nb', 'T', 'V', 'Zr']: 'I'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['I', 'Mo', 'Nb', 'T', 'V', 'Zr']: 'I'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['I', 'Mo', 'Nb', 'T', 'V', 'Zr']: 'I'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Ca', 'Li', 'Mg', 'Sr', 'Yb', 'Zn']: 'Ca'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Ca', 'Mg', 'Sr', 'Yb', 'Zn']: 'Ca'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Ca', 'Cu', 'Mg', 'Sr', 'Yb', 'Zn']: 'Ca'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Ni', 'Ti', 'Vi', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Ca', 'Mg', 'Sr', 'Yb', 'Zn']: 'Ca'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Ca', 'Mg', 'Zn']: 'Ca'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cu', 'Mn', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cu', 'Mn', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cu', 'Mn', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cu', 'Mn', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Ca', 'Li', 'Mg', 'Sr', 'Yb', 'Zn']: 'Ca'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Ca', 'Mg', 'Sr', 'Yb', 'Zn']: 'Ca'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Ca', 'Cu', 'Mg', 'Sr', 'Yb', 'Zn']: 'Ca'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Hf', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['B', 'Co', 'Fe', 'Ni', 'Si']: 'B'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['B', 'Co', 'Fe', 'Ni', 'Si']: 'B'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['B', 'Co', 'Fe', 'Ni', 'Si']: 'B'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['B', 'Co', 'Fe', 'Ni', 'Si']: 'B'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Fe', 'Mn', 'Si']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Fe', 'Mn', 'Nb', 'Si']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Fe', 'Mn', 'Nb', 'Si']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Hf', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Hf', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Hf', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Hf', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Hf', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Hf', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Hf', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Hf', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Hf', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Hf', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Hf', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Hf', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Be', 'Cu', 'Hf', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Cu', 'Fe', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Cu', 'Fe', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Fe', 'Gd', 'Ni']: 'Gd'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Fe', 'Gd', 'Ni']: 'Gd'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Fe', 'Gd', 'Ni']: 'Gd'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Fe', 'Gd', 'Ni']: 'Gd'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Hf', 'Mo', 'Nb', 'Ti', 'Zr']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Hf', 'Mo', 'Nb', 'Ti', 'Zr']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Cr', 'Cu', 'Fe', 'Mg']: 'Mg'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Cr', 'Cu', 'Fe', 'Mg']: 'Mg'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Cr', 'Cu', 'Fe', 'Mg']: 'Mg'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'O'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'O'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'O'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'O'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'O'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Nb', 'O', 'Ta', 'Ti', 'Zr']: 'O'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Fe', 'Gd', 'Ni']: 'Gd'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Fe', 'Gd', 'Ni']: 'Gd'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Fe', 'Gd', 'Ni']: 'Gd'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Cu', 'Fe', 'Ga', 'Ni']: 'Ga'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Cu', 'Fe', 'Ga', 'Ni']: 'Ga'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Cu', 'Fe', 'Ga', 'Ni']: 'Ga'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'Co', 'Cu', 'Fe', 'Ga', 'Ni']: 'Ga'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Cu', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Cu', 'Fe', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Cu', 'Fe', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cu', 'Ir', 'Ni', 'Pd', 'Pt', 'Rh']: 'Ir'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cu', 'Ir', 'Ni', 'Pd', 'Pt', 'Rh']: 'Ir'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cu', 'Ir', 'Ni', 'Pd', 'Pt', 'Rh']: 'Ir'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cu', 'Ir', 'Ni', 'Pd', 'Pt', 'Rh']: 'Ir'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cu', 'Ir', 'Ni', 'Pd', 'Pt', 'Rh']: 'Ir'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cu', 'Ir', 'Ni', 'Pd', 'Pt', 'Rh']: 'Ir'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cu', 'Ir', 'Ni', 'Pd', 'Pt', 'Rh']: 'Ir'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cu', 'Ir', 'Ni', 'Pd', 'Pt', 'Rh']: 'Ir'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cu', 'Ir', 'Ni', 'Pd', 'Pt', 'Rh']: 'Ir'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cu', 'Ir', 'Ni', 'Pd', 'Pt', 'Rh']: 'Ir'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Ag', 'Au', 'Pd', 'Pt']: 'Ag'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Ag', 'Au', 'Pd']: 'Ag'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Au', 'Pd']: 'Au'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Au', 'Ni']: 'Au'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Ag', 'Au', 'Ni']: 'Ag'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cu', 'Ir', 'Ni', 'Rh']: 'Ir'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['B', 'Co', 'Fe', 'Ni', 'Si']: 'B'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['B', 'Co', 'Fe', 'Ni', 'Si']: 'B'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['B', 'Co', 'Fe', 'Ni', 'Si']: 'B'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'N', 'Ni']: 'N'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cr', 'Cu', 'Fe', 'Ti', 'Zn']: 'Zn'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cr', 'Cu', 'Fe', 'Pb', 'Ti', 'Zn']: 'Pb'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Cr', 'Cu', 'Fe', 'Pb', 'Ti', 'Zn']: 'Pb'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Y']: 'Y'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Y']: 'Y'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Y']: 'Y'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Y']: 'Y'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'S']: 'S'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Nb', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Nb', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:23] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Be', 'Cu', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Be', 'Cu', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Be', 'Cu', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Be', 'Cu', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Be', 'Cu', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Be', 'Cu', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Be', 'Cu', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Be', 'Cu', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'N', 'Ni']: 'N'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'N', 'Ni']: 'N'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'N', 'Ni']: 'N'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'N', 'Ni']: 'N'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'N', 'Ni']: 'N'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni', 'V']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni', 'V']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni', 'V']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni', 'V']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Fe', 'N', 'Nb', 'Ta', 'Ti', 'Zr']: 'N'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Fe', 'N', 'Nb', 'Ta', 'Ti', 'Zr']: 'N'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Fe', 'N', 'Nb', 'Ta', 'Ti', 'Zr']: 'N'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Fe', 'N', 'Nb', 'Ta', 'Ti', 'Zr']: 'N'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Fe', 'N', 'Nb', 'Ta', 'Ti', 'Zr']: 'N'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['C', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['A', 'Cr', 'D', 'Fe', 'Mn', 'Ni', 'P', 'Ti']: 'A'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['A', 'Cr', 'D', 'Fe', 'Mn', 'Ni', 'P', 'Ti']: 'A'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Co', 'Fe', 'Mn', 'Ni', 'Si', 'Ti']: 'Si'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Co', 'Fe', 'Mn', 'Ni', 'Si', 'Ti']: 'Si'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Be', 'Fe', 'Hf', 'Nb', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Be', 'Co', 'Hf', 'Nb', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Be', 'Hf', 'Nb', 'Ni', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Be', 'Cu', 'Hf', 'Nb', 'Ti', 'Zr']: 'Be'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Cr', 'Fe', 'Mn', 'Si', 'V']: 'Si'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Cr', 'Fe', 'Mn', 'Si', 'V']: 'Si'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Cr', 'Fe', 'Mn', 'Si', 'V']: 'Si'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Cr', 'Fe', 'Mn', 'Si', 'V']: 'Si'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Al', 'B', 'Co', 'Fe', 'Ni', 'Ti']: 'B'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Al', 'B', 'Co', 'Fe', 'Ni', 'Ti']: 'B'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Al', 'B', 'Co', 'Fe', 'Ni', 'Ti']: 'B'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Al', 'B', 'Co', 'Fe', 'Ni', 'Ti']: 'B'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['E', 'M', 'Nb', 'Ta', 'Ti', 'V']: 'E'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Nb', 'Si', 'Ta', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Nb', 'Si', 'Ta', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Nb', 'Si', 'Ta', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Nb', 'Si', 'Ta', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Al', 'B', 'Cr', 'Mo', 'V']: 'B'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Al', 'B', 'Cr', 'Mo', 'V']: 'B'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Al', 'B', 'Cr', 'Mo', 'V']: 'B'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Al', 'B', 'Cr', 'Mo', 'V']: 'B'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Al', 'B', 'Cr', 'Mo', 'V']: 'B'
+- [2026-02-04 11:59:24] YS_1300C failed for elements ['Al', 'B', 'Cr', 'Mo', 'V']: 'B'
+- [2026-02-04 11:59:24] Wrote /home/vela/projects/ult/redesign_2_2_26/featurize_database_for_cafer/codhem_featurized.csv
+- [2026-02-04 11:59:25] Featurizing lietal.xlsx: 1713 rows, 32 element columns
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Li', 'Mg', 'Sn', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Li', 'Mg', 'Sn', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Li', 'Mg', 'Sn', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Li', 'Mg', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Li', 'Mg', 'Sc']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Ge']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Ge']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Ge']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B', 'C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B', 'C', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B', 'C', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Ga']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Ge']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C', 'Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C', 'Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C', 'Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['N', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['N', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['N', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['N', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['N', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Nd']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Li', 'Mg', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Li', 'Mg', 'Sn', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Li', 'Mg', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Li', 'Mg', 'Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Li', 'Mg', 'Sn', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Li', 'Mg', 'Sn', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Li', 'Mg', 'Sc']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Mg', 'Si', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Ca', 'Li', 'Mg', 'Si']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Pd']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['B']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sc']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Sc', 'Y']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Ga']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['Ag', 'Zn']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] Missing basic data for elements ['C']; setting basic features to NaN.
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si', 'Ti']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si', 'Ti']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si', 'Ti']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Cu', 'Ni', 'Ti', 'Y']: 'Y'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Cu', 'Ni', 'Ti', 'Y']: 'Y'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Cu', 'Ni', 'Ti', 'Y']: 'Y'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Li', 'Mg', 'Sn', 'Zn']: 'Li'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Li', 'Mg', 'Sn', 'Zn']: 'Li'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Li', 'Mg', 'Sn', 'Zn']: 'Li'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Cu', 'Li', 'Mg', 'Zn']: 'Li'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Hf', 'Mo', 'Nb', 'Ti', 'Zr']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Hf', 'Mo', 'Nb', 'Ti', 'Zr']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Nb', 'Si', 'Ti', 'V', 'Zr']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Cu', 'Mn', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Cu', 'Mn', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Cu', 'Mn', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Cu', 'Mn', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Mn', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Mn', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Mn', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Mn', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Mn', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'B', 'Co', 'Cr', 'Cu', 'Fe', 'Ni']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'B', 'Co', 'Cr', 'Cu', 'Fe', 'Ni']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'B', 'Co', 'Cr', 'Cu', 'Fe', 'Ni']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cu', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Li', 'Mg', 'Sc', 'Ti']: 'Li'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ge', 'Ni']: 'Ge'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ge', 'Ni']: 'Ge'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ge', 'Ni']: 'Ge'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Si']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Si', 'Ti']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Si', 'Ti']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Si', 'Ti']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Cr', 'Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'B', 'C', 'Cr', 'Hf', 'Mo', 'Nb', 'Ti', 'Zr']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Hf', 'Mo', 'Nb', 'Ti', 'Zr']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['B', 'C', 'Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'B', 'C', 'Cr', 'Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['B', 'Co', 'Cu', 'Fe', 'Ni', 'Y']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['B', 'Co', 'Cu', 'Fe', 'Ni', 'Y']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['B', 'Co', 'Cu', 'Fe', 'Ni', 'Y']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['B', 'Co', 'Cu', 'Fe', 'Ni', 'Y']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['B', 'Co', 'Cu', 'Fe', 'Ni', 'Y']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['B', 'Co', 'Cu', 'Fe', 'Ni', 'Y']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['B', 'Co', 'Cu', 'Fe', 'Ni', 'Y']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['B', 'Co', 'Cu', 'Fe', 'Ni', 'Y']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['B', 'Co', 'Cu', 'Fe', 'Ni', 'Y']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Hf', 'Nb', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Hf', 'Nb', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Hf', 'Nb', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Hf', 'Nb', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Hf', 'Nb', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Hf', 'Nb', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Hf', 'Nb', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Hf', 'Nb', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Hf', 'Nb', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Hf', 'Nb', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Cu', 'Hf', 'Y', 'Zr']: 'Y'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Cu', 'Ti', 'Y', 'Zr']: 'Y'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Cu', 'Hf', 'Ti', 'Y', 'Zr']: 'Y'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ga', 'Ni']: 'Ga'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ge', 'Ni']: 'Ge'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Mn', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Mn', 'Ni', 'Sn']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Mn', 'Ni', 'Sn']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Mn', 'Ni', 'Sn']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Cu', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Cu', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Cu', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Cu', 'Fe', 'N', 'Si']: 'N'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Cu', 'Fe', 'N', 'Si']: 'N'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Cu', 'Fe', 'N', 'Si']: 'N'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Cu', 'Fe', 'N', 'Si']: 'N'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Cu', 'Fe', 'N', 'Si']: 'N'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'B', 'Co', 'Cr', 'Cu', 'Fe', 'Ni']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'B', 'Co', 'Cr', 'Cu', 'Fe', 'Ni']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'B', 'Co', 'Cr', 'Cu', 'Fe', 'Ni']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cu', 'Fe', 'Nd', 'Ni']: 'Nd'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cu', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Cu', 'Ni', 'Ti', 'Y']: 'Y'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Cu', 'Ni', 'Ti', 'Y']: 'Y'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Co', 'Cr', 'Cu', 'Ni', 'Ti', 'Y']: 'Y'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Mn', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Mn', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Mn', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Mn', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cu', 'Fe', 'Mn', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Cu', 'Li', 'Mg', 'Zn']: 'Li'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Li', 'Mg', 'Sn', 'Zn']: 'Li'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Cu', 'Li', 'Mg', 'Zn']: 'Li'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Cu', 'Li', 'Mg', 'Sn']: 'Li'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Li', 'Mg', 'Sn', 'Zn']: 'Li'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Li', 'Mg', 'Sn', 'Zn']: 'Li'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Li', 'Mg', 'Sc', 'Ti']: 'Li'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Hf', 'Mo', 'Nb', 'Ti', 'Zr']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Hf', 'Mo', 'Nb', 'Ti', 'Zr']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Cu', 'Mn', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Cu', 'Mn', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Cu', 'Mn', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Cu', 'Mn', 'Ni', 'Sn']: 'Sn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'Zr']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Mo', 'Nb', 'Si', 'Ti', 'V']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Nb', 'Si', 'Ti', 'V', 'Zr']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Nb', 'Si', 'Ti', 'V', 'Zr']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Mo', 'Nb', 'Re', 'Ta', 'W']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Nb', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Mo', 'Nb', 'Si', 'Ta', 'W']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Ti']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Si']: 'Si'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Cu', 'Fe', 'Mg', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Ni', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Cr', 'Cu', 'Mg', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Mn', 'Si', 'Zn']: 'Mg'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Cu', 'Mg', 'Si', 'Zn', 'Zr']: 'Mg'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si', 'Y']: 'Ca'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'Ca', 'Li', 'Mg', 'Si']: 'Ca'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Mn', 'Ni', 'Pd']: 'Pd'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['B', 'Co', 'Cr', 'Fe', 'Mn']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['B', 'Co', 'Cr', 'Fe', 'Mn']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['B', 'Co', 'Cr', 'Fe', 'Mn']: 'B'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Sc', 'Ti', 'Zr']: 'Sc'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Ti', 'Y', 'Zr']: 'Y'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Hf', 'Sc', 'Ti', 'Y', 'Zr']: 'Sc'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cr', 'Fe', 'Ga', 'Ni']: 'Ga'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Co', 'Cr', 'Cu', 'Ni', 'Zn']: 'Zn'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Ag', 'Al', 'Nb', 'Ti', 'Zn']: 'Ag'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['Al', 'C', 'Co', 'Cr', 'Fe', 'Ni']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni', 'W']: 'C'
+- [2026-02-04 11:59:26] YS_1300C failed for elements ['C', 'Co', 'Cr', 'Fe', 'Ni', 'W']: 'C'
+- [2026-02-04 11:59:27] Wrote /home/vela/projects/ult/redesign_2_2_26/featurize_database_for_cafer/lietal_featurized.xlsx
+- [2026-02-04 11:59:27] Featurization run complete
+- [2026-02-04 11:59:30] Ran featurize_cafer.py with --skip-tc for borg2019,codhem,lietal.
+- [2026-02-04 11:59:30] Outputs: borg2019_featurized.csv, codhem_featurized.csv, lietal_featurized.xlsx.
+- [2026-02-04 12:10:30] Updated TC_Property_Module.py to chunk outputs and added CLI.
+- [2026-02-04 12:10:30] Quick test: 2 rows from codhem_featurized.csv -> prop_chunks_test/solidus_liquidus_00000_00001.csv.
+- [2026-02-04 12:23:00] Updated TC_Property_Module.py: one TC session per element family, parallelized across families; chunk outputs per family.
+- [2026-02-04 12:23:00] Parallel test OK: codhem_featurized.csv first 2 rows -> prop_chunks_test_parallel/.
+- [2026-02-04 12:31:00] Updated TC_Equilibrium_Module.py to match TC_Property_Module.py: per-family sessions, parallel, chunked outputs, verbose progress.
+- [2026-02-04 12:31:00] RT THCD quick test OK: codhem_featurized.csv first 2 rows -> rt_thcd_chunks_test/.
