@@ -1,7 +1,13 @@
 import os
+import sys
 import pandas as pd
 import numpy as np
 from tc_python import TCPython, CompositionUnit, ThermodynamicQuantity, LoggingPolicy
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT_LANDING = os.path.join(ROOT, "root_landing")
+if ROOT_LANDING not in sys.path:
+    sys.path.insert(0, ROOT_LANDING)
 import strength_model
 
 PROP_DATA = {

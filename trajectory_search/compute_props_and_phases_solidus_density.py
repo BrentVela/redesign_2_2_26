@@ -12,8 +12,9 @@ from tc_python import TCPython, LoggingPolicy, ThermodynamicQuantity
 from tc_python.exceptions import CalculationException
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-if ROOT not in sys.path:
-    sys.path.insert(0, ROOT)
+ROOT_LANDING = os.path.join(ROOT, "root_landing")
+if ROOT_LANDING not in sys.path:
+    sys.path.insert(0, ROOT_LANDING)
 import strength_model
 
 
