@@ -34,3 +34,6 @@ Thumbs.db
 !trajectory_search/search_results_with_props.csv
 !trajectory_search/search_results_solidus_density.csv
 !trajectory_search/search_results_solidus_density_with_props.csv
+
+# Keep Cafer featurization inputs/outputs
+!featurize_database_for_cafer/*.csv
