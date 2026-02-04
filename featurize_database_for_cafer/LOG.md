@@ -2037,3 +2037,7 @@
 - [2026-02-04 12:23:00] Parallel test OK: codhem_featurized.csv first 2 rows -> prop_chunks_test_parallel/.
 - [2026-02-04 12:31:00] Updated TC_Equilibrium_Module.py to match TC_Property_Module.py: per-family sessions, parallel, chunked outputs, verbose progress.
 - [2026-02-04 12:31:00] RT THCD quick test OK: codhem_featurized.csv first 2 rows -> rt_thcd_chunks_test/.
+- [2026-02-04 13:05:00] Killed hung TC solidus/liquidus run at ~96% and stitched partial chunks.
+- [2026-02-04 13:05:00] Built codhem_featurized_with_solidus_liquidus.csv from available chunks + missing-supported chunks.
+- [2026-02-04 13:05:00] Remaining missing: codhem_missing_still_nan.csv (119 unique compositions). Unsupported elements listed in codhem_missing_for_tc_unsupported.csv.
+- [2026-02-04 13:07:00] Split missing comps: codhem_missing_supported_still_nan.csv (26) and codhem_missing_unsupported_still_nan.csv (93).
