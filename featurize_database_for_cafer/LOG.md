@@ -2041,3 +2041,8 @@
 - [2026-02-04 13:05:00] Built codhem_featurized_with_solidus_liquidus.csv from available chunks + missing-supported chunks.
 - [2026-02-04 13:05:00] Remaining missing: codhem_missing_still_nan.csv (119 unique compositions). Unsupported elements listed in codhem_missing_for_tc_unsupported.csv.
 - [2026-02-04 13:07:00] Split missing comps: codhem_missing_supported_still_nan.csv (26) and codhem_missing_unsupported_still_nan.csv (93).
+- [2026-02-04 13:15:00] Added per-composition timeout support and ST_LT_TIMEOUT column in TC_Property_Module.py.
+- [2026-02-04 13:22:00] Added per-family timeout (keeps one TC session per family) to TC_Property_Module.py.
+- [2026-02-04 13:35:00] Stitched borg2019 solidus/liquidus from partial chunks + missing-run chunks.
+- [2026-02-04 13:35:00] borg2019_featurized_with_solidus_liquidus.csv missing 67 rows; remaining unique missing 47.
+- [2026-02-04 13:35:00] Missing split: borg2019_missing_supported_still_nan.csv (28) and borg2019_missing_unsupported_still_nan.csv (19).
