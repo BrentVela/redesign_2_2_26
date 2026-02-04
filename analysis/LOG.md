@@ -55,3 +55,6 @@ All timestamps in UTC.
   - creep_composite_1200C_vs_v.pdf
   - creep_composite_1200C_vs_v_100h_pct.pdf
 - Generated NH-only 100 h % plot: creep_NH_1200C_vs_v_100h_pct.pdf
+## 2026-02-04T16:12:19Z
+- Updated trajectory search to compute solidus and re-ranked candidates.
+- Added YS_1300C_MPa to trajectory search results and regenerated search_results_with_props.csv.

@@ -42,9 +42,10 @@ def density_rule_of_mixtures(comp):
     return molar_mass / molar_volume
 
 
-def liquidus_tc_batch(comps):
+def liquidus_solidus_tc_batch(comps):
     active = ["Nb", "Ta", "V", "Cr", "W", "Zr"]
     liquidus = []
+    solidus = []
     with TCPython() as session:
         session.disable_caching()
         calc = (
@@ -61,7 +62,8 @@ def liquidus_tc_batch(comps):
                 calc.set_composition(el, comp[el] * 100.0)
             result = calc.calculate()
             liquidus.append(result.get_value_of('Liquidus temperature'))
-    return liquidus
+            solidus.append(result.get_value_of('Solidus temperature'))
+    return liquidus, solidus
 
 
 def main():
@@ -120,13 +122,16 @@ def main():
 
     # Compute TC liquidus for these candidates (reuse one TC session)
     comps = [row for row in df[['Nb','Ta','V','Cr','W','Zr']].to_dict('records')]
-    tms = liquidus_tc_batch(comps)
-    df['Liquidus_K_TC'] = tms
+    liq, sol = liquidus_solidus_tc_batch(comps)
+    df['Liquidus_K_TC'] = liq
+    df['Solidus_K_TC'] = sol
     df['Liquidus_C_TC'] = df['Liquidus_K_TC'] - 273.15
+    df['Solidus_C_TC'] = df['Solidus_K_TC'] - 273.15
     df['tm_err'] = (df['Liquidus_C_TC'] - target_tm_c).abs()
+    df['ts_err'] = (df['Solidus_C_TC'] - target_tm_c).abs()
 
-    # rank by density error then tm error
-    df = df.sort_values(['density_err','tm_err']).reset_index(drop=True)
+    # rank by density error then solidus error
+    df = df.sort_values(['density_err','ts_err']).reset_index(drop=True)
 
     out = Path('trajectory_search/search_results.csv')
     df.to_csv(out, index=False)
@@ -134,13 +139,13 @@ def main():
 
     # summarize best by density and best by liquidus
     best_density = df.iloc[0]
-    best_tm = df.sort_values('tm_err').iloc[0]
+    best_ts = df.sort_values('ts_err').iloc[0]
 
     print('\nBest by density (ROM):')
     print(best_density[['Nb','Ta','V','Cr','W','Zr','Density_g_cc_ROM','Liquidus_C_TC']].to_string())
 
-    print('\nBest by liquidus (TC):')
-    print(best_tm[['Nb','Ta','V','Cr','W','Zr','Density_g_cc_ROM','Liquidus_C_TC']].to_string())
+    print('\nBest by solidus (TC):')
+    print(best_ts[['Nb','Ta','V','Cr','W','Zr','Density_g_cc_ROM','Solidus_C_TC']].to_string())
 
 
 if __name__ == '__main__':

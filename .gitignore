@@ -27,3 +27,7 @@ Thumbs.db
 # Keep Thermo-Calc equilibrium outputs
 !CalcFiles/EQUIL_AP_OUT_*.csv
 !CalcFiles/EQUIL_AP_OUT_MISSING.csv
+
+# Keep trajectory search outputs
+!trajectory_search/search_results.csv
+!trajectory_search/search_results_with_props.csv
