@@ -63,3 +63,6 @@ All timestamps in UTC.
 - Generated trajectory_search/search_results_solidus_density.csv and computed properties + phase fractions + THCD:
   trajectory_search/search_results_solidus_density_with_props.csv.
 - Added compute helper: trajectory_search/compute_props_and_phases_solidus_density.py.
+## 2026-02-04T18:49:00Z
+- Added RT (25C) THCD to trajectory_search/search_results_solidus_density_with_props.csv via:
+  trajectory_search/add_thcd_rt_to_solidus_density.py.
